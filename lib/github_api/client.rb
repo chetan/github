@@ -13,6 +13,7 @@ module Github
                 'markdown',
                 'meta',
                 'orgs',
+                'projects',
                 'pull_requests',
                 'repos',
                 'say',
@@ -51,6 +52,8 @@ module Github
 
     namespace :orgs
     alias :organizations :orgs
+
+    namespace :projects
 
     namespace :pull_requests
     alias :pulls :pull_requests
